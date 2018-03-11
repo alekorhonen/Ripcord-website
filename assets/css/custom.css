@@ -1,0 +1,30 @@
+body { 
+	padding-top: 40px; 
+}
+
+ul.nav li a:hover {
+	background-color: transparent;
+}
+
+.navbar-brand {
+	padding: 10px 15px;
+}
+
+.navbar-toggle {
+    border-color: #337ab7;
+	color: #337ab7;
+}
+
+.navbar-toggle .icon-bar {
+	background-color: #337ab7;
+}
+
+.navbar-collapse {
+	background: white;
+}
+
+@media only screen and (max-width: 450px) {
+	.not-mobile {
+		display: none;
+	}
+}
